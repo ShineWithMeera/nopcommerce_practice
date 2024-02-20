@@ -1,5 +1,6 @@
 package com.nopcommerce_V1.PageObjects;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -24,5 +25,44 @@ public class LoginPage {
 	@FindBy (xpath="//button[@type='submit']")WebElement loginButton;
 	@FindBy (xpath="//input[@type='checkbox']")WebElement RememberMe;
 	
+	public void getLoginPage() {
+		driver.get(loginpage);
+	}
+	
+	// Verify the title of the page
+				public String verifyPageTitle() {
+					String pageTitle = driver.getTitle();
+					return pageTitle;
+
+				}
+				
+				//validate the username and password for empty fields
+			
+				public Boolean doLogin(String email, String password) {
+
+					Email.clear();
+					Email.sendKeys(email);
+					Password.clear();
+					Password.sendKeys(password);
+
+					
+					// To check empty fields , we need to check "required" field is on an attribute
+					if (email.isBlank()) {
+						JavascriptExecutor js_email = (JavascriptExecutor) driver;
+						isRequired = (Boolean) js_email.executeScript("return arguments[0].required;", Email);
+						return isRequired;
+					} else if (password.isBlank()) {
+						JavascriptExecutor js_password = (JavascriptExecutor) driver;
+						isRequired = (Boolean) js_password.executeScript("return arguments[0].required;", Password);
+						return isRequired;
+
+					}
+					return isRequired;
+				}
+				
+	public void rememberme() {
+		RememberMe.click();
+		
+	}
 	
 }
