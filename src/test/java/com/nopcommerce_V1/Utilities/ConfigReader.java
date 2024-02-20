@@ -39,9 +39,9 @@ public class ConfigReader {
 			
 			// method to get the login page url
 						public static String getLoginPage() {
-							String loginpage = prop.getProperty("loginpage");
-							if (loginpage != null) {
-								return loginpage;
+							String loginURL = prop.getProperty("loginpage");
+							if (loginURL != null) {
+								return loginURL;
 							} else {
 								throw new RuntimeException("loginpage not specified in the config.properties file.");
 							}
