@@ -1,5 +1,6 @@
 package nopcommerce_V1.StepDefinitions;
 
+import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import com.nopcommerce_V1.PageObjects.LoginPage;
@@ -36,17 +37,21 @@ public class LoginPageSD {
 
 	@When("User check the remember me checkbox")
 	public void user_check_the_remember_me_checkbox() {
-	    
+	   login.rememberme(); 
+	   LoggerLoad.info("User check the remember me checkbox");
 	}
 
 	@When("User clicks on login button")
 	public void user_clicks_on_login_button() {
-	    
+		login.loginbutton();
+		 LoggerLoad.info("User clicks on login button");
 	}
 
 	@Then("User is able to navigate to admin page")
 	public void user_is_able_to_navigate_to_admin_page() {
-	   
+		String Title = login.verifyPageTitle();
+		LoggerLoad.info("Title of current page is" + Title);
+		assertEquals(Title, "NumpyNinja", "Title do not match");
 	}
 
 	@When("User enters  email {string} and password {string}")

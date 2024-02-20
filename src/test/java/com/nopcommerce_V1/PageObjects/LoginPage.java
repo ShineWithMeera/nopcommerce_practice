@@ -9,15 +9,15 @@ import org.openqa.selenium.support.PageFactory;
 import com.nopcommerce_V1.DriverFactory.DriverFactory;
 import com.nopcommerce_V1.Utilities.ConfigReader;
 
-public class LoginPage {
+public class LoginPage extends BasePage {
 	
-	public static WebDriver driver = DriverFactory.getdriver();
-	String loginpage = ConfigReader.getLoginPage();
+	//public static WebDriver driver = DriverFactory.getdriver();
+	//String loginpage = ConfigReader.getLoginPage();
 	Boolean isRequired;
 	
 // initializes all the annotated elements (such as @FindBy) in the current class (this) using the given WebDriver instance (driver).	
 	public LoginPage() {
-		PageFactory.initElements(driver, this);
+		//PageFactory.initElements(driver, this);
 	}
 	
 	@FindBy (xpath="//*[@id='Email']")static WebElement Email;
@@ -64,5 +64,11 @@ public class LoginPage {
 		RememberMe.click();
 		
 	}
+	public void loginbutton() {
+		loginButton.click();
+		
+	}
+	
+	
 	
 }
