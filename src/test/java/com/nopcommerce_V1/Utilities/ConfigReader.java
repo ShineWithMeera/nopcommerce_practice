@@ -38,21 +38,21 @@ public class ConfigReader {
 			}
 			
 			// method to get the login page url
-						public static String getLoginPage() {
-							String loginURL = prop.getProperty("loginpage");
-							if (loginURL != null) {
-								return loginURL;
+						public static String getLoginPageUrl() {
+							String loginPage = prop.getProperty("loginPageURL");
+							if (loginPage != null) {
+								return loginPage;
 							} else {
-								throw new RuntimeException("loginpage not specified in the config.properties file.");
+								throw new RuntimeException("LoginpageURL not specified in the config.properties file.");
 							}
 						}
-						// method to get the excel file path
+			// method to get the excel file path
 						public static String getExcelFilePath() {
-							String excelfilepath = prop.getProperty("excelfilepath");
+							String excelfilepath = prop.getProperty("excelfilePath");
 							if (excelfilepath != null) {
 								return excelfilepath;
 							} else {
-								throw new RuntimeException("excelfilepath not specified in the config.properties file.");
+								throw new RuntimeException("Excelfilepath not specified in the config.properties file.");
 							}
 						}
 			
