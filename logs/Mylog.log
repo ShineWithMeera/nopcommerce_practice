@@ -1,0 +1,157 @@
+[INFO ] 2024-02-28 09:12:41.211 [main] LoggerLoad - Loading Config file
+[INFO ] 2024-02-28 09:12:41.219 [main] LoggerLoad - Testing on chrome
+[INFO ] 2024-02-28 09:12:48.761 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2024-02-28 09:12:49.216 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 09:12:49.217 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_01] : User is able to navigate to admin page with valid credentials
+[INFO ] 2024-02-28 09:12:49.217 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 09:12:49.322 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 09:12:49.323 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_02] : Verify User is not able to navigate to admin page with Invalid credentials
+[INFO ] 2024-02-28 09:12:49.323 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 09:12:49.361 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 09:12:49.362 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_02] : Verify User is not able to navigate to admin page with Invalid credentials
+[INFO ] 2024-02-28 09:12:49.362 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 09:12:49.393 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 09:12:49.393 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_02] : Verify User is not able to navigate to admin page with Invalid credentials
+[INFO ] 2024-02-28 09:12:49.393 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 09:12:49.424 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 09:12:49.425 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_02] : Verify User is not able to navigate to admin page with Invalid credentials
+[INFO ] 2024-02-28 09:12:49.425 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 09:12:49.458 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 09:12:49.458 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_02] : Verify User is not able to navigate to admin page with Invalid credentials
+[INFO ] 2024-02-28 09:12:49.458 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 09:12:49.472 [main] LoggerLoad - Closing Driver
+[INFO ] 2024-02-28 09:14:03.641 [main] LoggerLoad - Loading Config file
+[INFO ] 2024-02-28 09:14:03.666 [main] LoggerLoad - Testing on chrome
+[INFO ] 2024-02-28 09:14:06.505 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2024-02-28 09:14:06.999 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 09:14:06.999 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_01] : User is able to navigate to admin page with valid credentials
+[INFO ] 2024-02-28 09:14:07.000 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 09:14:07.071 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 09:14:07.072 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_02] : Verify User is not able to navigate to admin page with Invalid credentials
+[INFO ] 2024-02-28 09:14:07.072 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 09:14:07.097 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 09:14:07.097 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_02] : Verify User is not able to navigate to admin page with Invalid credentials
+[INFO ] 2024-02-28 09:14:07.098 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 09:14:07.118 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 09:14:07.119 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_02] : Verify User is not able to navigate to admin page with Invalid credentials
+[INFO ] 2024-02-28 09:14:07.119 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 09:14:07.136 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 09:14:07.137 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_02] : Verify User is not able to navigate to admin page with Invalid credentials
+[INFO ] 2024-02-28 09:14:07.137 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 09:14:07.153 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 09:14:07.154 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_02] : Verify User is not able to navigate to admin page with Invalid credentials
+[INFO ] 2024-02-28 09:14:07.154 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 09:14:07.167 [main] LoggerLoad - Closing Driver
+[INFO ] 2024-02-28 09:19:12.389 [main] LoggerLoad - Loading Config file
+[INFO ] 2024-02-28 09:19:12.398 [main] LoggerLoad - Testing on chrome
+[INFO ] 2024-02-28 09:19:15.015 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2024-02-28 09:19:15.396 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 09:19:15.396 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_01] : User is able to navigate to admin page with valid credentials
+[INFO ] 2024-02-28 09:19:15.396 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 09:19:15.462 [main] LoggerLoad - Closing Driver
+[INFO ] 2024-02-28 09:21:43.443 [main] LoggerLoad - Loading Config file
+[INFO ] 2024-02-28 09:21:43.460 [main] LoggerLoad - Testing on chrome
+[INFO ] 2024-02-28 09:21:45.870 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2024-02-28 09:21:46.296 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 09:21:46.296 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_01] : User is able to navigate to admin page with valid credentials
+[INFO ] 2024-02-28 09:21:46.297 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 09:21:46.355 [main] LoggerLoad - Closing Driver
+[INFO ] 2024-02-28 09:22:06.520 [main] LoggerLoad - Loading Config file
+[INFO ] 2024-02-28 09:22:06.527 [main] LoggerLoad - Testing on chrome
+[INFO ] 2024-02-28 09:22:08.836 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2024-02-28 09:22:09.341 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 09:22:09.341 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_01] : User is able to navigate to admin page with valid credentials
+[INFO ] 2024-02-28 09:22:09.341 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 09:22:09.407 [main] LoggerLoad - Closing Driver
+[INFO ] 2024-02-28 09:23:34.414 [main] LoggerLoad - Loading Config file
+[INFO ] 2024-02-28 09:23:34.421 [main] LoggerLoad - Testing on chrome
+[INFO ] 2024-02-28 09:23:36.799 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2024-02-28 09:23:37.325 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 09:23:37.325 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_01] : User is able to navigate to admin page with valid credentials
+[INFO ] 2024-02-28 09:23:37.325 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 09:23:37.417 [main] LoggerLoad - Closing Driver
+[INFO ] 2024-02-28 09:26:19.558 [main] LoggerLoad - Loading Config file
+[INFO ] 2024-02-28 09:26:19.571 [main] LoggerLoad - Testing on chrome
+[INFO ] 2024-02-28 09:26:21.984 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2024-02-28 09:26:22.116 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 09:26:22.117 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_01] : User is able to navigate to admin page with valid credentials
+[INFO ] 2024-02-28 09:26:22.117 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 09:26:22.787 [main] LoggerLoad - User launch the Login page
+[INFO ] 2024-02-28 09:26:22.797 [main] LoggerLoad - User Enter email as " null " and Password as " null" 
+[ERROR] 2024-02-28 09:26:23.057 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2024-02-28 09:26:23.767 [main] LoggerLoad - Closing Driver
+[INFO ] 2024-02-28 09:27:00.167 [main] LoggerLoad - Loading Config file
+[INFO ] 2024-02-28 09:27:00.180 [main] LoggerLoad - Testing on chrome
+[INFO ] 2024-02-28 09:27:02.638 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2024-02-28 09:27:03.035 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 09:27:03.035 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_01] : User is able to navigate to admin page with valid credentials
+[INFO ] 2024-02-28 09:27:03.035 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 09:27:03.088 [main] LoggerLoad - Closing Driver
+[INFO ] 2024-02-28 09:45:10.080 [main] LoggerLoad - Loading Config file
+[INFO ] 2024-02-28 09:45:10.095 [main] LoggerLoad - Testing on chrome
+[INFO ] 2024-02-28 09:45:13.733 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2024-02-28 09:45:14.226 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 09:45:14.227 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_01] : User is able to navigate to admin page with valid credentials
+[INFO ] 2024-02-28 09:45:14.227 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 09:45:14.310 [main] LoggerLoad - Closing Driver
+[INFO ] 2024-02-28 09:46:24.995 [main] LoggerLoad - Loading Config file
+[INFO ] 2024-02-28 09:46:25.010 [main] LoggerLoad - Testing on chrome
+[INFO ] 2024-02-28 09:46:28.270 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2024-02-28 09:46:28.739 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 09:46:28.740 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_01] : User is able to navigate to admin page with valid credentials
+[INFO ] 2024-02-28 09:46:28.740 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 09:46:28.791 [main] LoggerLoad - Closing Driver
+[INFO ] 2024-02-28 10:36:50.753 [main] LoggerLoad - Loading Config file
+[INFO ] 2024-02-28 10:36:50.764 [main] LoggerLoad - Testing on chrome
+[INFO ] 2024-02-28 10:36:55.300 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2024-02-28 10:36:55.501 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 10:36:55.502 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_01] : User is able to navigate to admin page with valid credentials
+[INFO ] 2024-02-28 10:36:55.502 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 10:36:56.515 [main] LoggerLoad - User launch the Login page
+[INFO ] 2024-02-28 10:36:56.521 [main] LoggerLoad - User Enter email as " null " and Password as " null" 
+[ERROR] 2024-02-28 10:36:56.763 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2024-02-28 10:36:57.440 [main] LoggerLoad - Closing Driver
+[INFO ] 2024-02-28 10:37:21.570 [main] LoggerLoad - Loading Config file
+[INFO ] 2024-02-28 10:37:21.584 [main] LoggerLoad - Testing on chrome
+[INFO ] 2024-02-28 10:37:24.492 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2024-02-28 10:37:25.048 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 10:37:25.049 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_01] : User is able to navigate to admin page with valid credentials
+[INFO ] 2024-02-28 10:37:25.049 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 10:37:25.127 [main] LoggerLoad - Closing Driver
+[INFO ] 2024-02-28 10:41:29.221 [main] LoggerLoad - Loading Config file
+[INFO ] 2024-02-28 10:41:29.239 [main] LoggerLoad - Testing on chrome
+[INFO ] 2024-02-28 10:41:33.443 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2024-02-28 10:41:34.015 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 10:41:34.015 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_01] : User is able to navigate to admin page with valid credentials
+[INFO ] 2024-02-28 10:41:34.016 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 10:41:34.079 [main] LoggerLoad - Closing Driver
+[INFO ] 2024-02-28 10:43:36.398 [main] LoggerLoad - Loading Config file
+[INFO ] 2024-02-28 10:43:36.412 [main] LoggerLoad - Testing on chrome
+[INFO ] 2024-02-28 10:43:40.992 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2024-02-28 10:43:41.590 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 10:43:41.591 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_01] : User is able to navigate to admin page with valid credentials
+[INFO ] 2024-02-28 10:43:41.591 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 10:43:42.286 [main] LoggerLoad - User launch the Login page
+[INFO ] 2024-02-28 10:43:42.305 [main] LoggerLoad - User Enter email as " null " and Password as " null" 
+[ERROR] 2024-02-28 10:43:42.740 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2024-02-28 10:43:43.567 [main] LoggerLoad - Closing Driver
+[INFO ] 2024-02-28 11:13:48.856 [main] LoggerLoad - Loading Config file
+[INFO ] 2024-02-28 11:13:48.864 [main] LoggerLoad - Testing on chrome
+[INFO ] 2024-02-28 11:13:54.363 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2024-02-28 11:13:55.085 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 11:13:55.085 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_01] : User is able to navigate to admin page with valid credentials
+[INFO ] 2024-02-28 11:13:55.086 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 11:13:55.758 [main] LoggerLoad - User launch the Login page
+[INFO ] 2024-02-28 11:13:55.774 [main] LoggerLoad - User Enter email as " null " and Password as " null" 
+[ERROR] 2024-02-28 11:13:56.231 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2024-02-28 11:13:57.187 [main] LoggerLoad - Closing Driver
+[INFO ] 2024-02-28 11:17:15.224 [main] LoggerLoad - Loading Config file
+[INFO ] 2024-02-28 11:17:15.238 [main] LoggerLoad - Testing on chrome
+[INFO ] 2024-02-28 11:17:21.831 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2024-02-28 11:17:23.182 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2024-02-28 11:17:23.183 [main] LoggerLoad - [@LoginPage, @TC_LoginPage_01] : User is able to navigate to admin page with valid credentials
+[INFO ] 2024-02-28 11:17:23.183 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2024-02-28 11:17:24.206 [main] LoggerLoad - User launch the Login page
+[INFO ] 2024-02-28 11:17:24.225 [main] LoggerLoad - User Enter email as " null " and Password as " null" 
+[ERROR] 2024-02-28 11:17:24.855 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2024-02-28 11:17:26.317 [main] LoggerLoad - Closing Driver

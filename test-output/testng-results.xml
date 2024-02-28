@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-28T11:17:12 CST" name="Default suite" finished-at="2024-02-28T11:17:27 CST" duration-ms="14913">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nopcommerce_V1.TestRunner.TestRunner@78e4deb0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-02-28T11:17:12 CST" name="Default test" finished-at="2024-02-28T11:17:27 CST" duration-ms="14913">
+      <class name="com.nopcommerce_V1.TestRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.nopcommerce_V1.TestRunner.TestRunner@78e4deb0]" started-at="2024-02-28T11:17:12 CST" name="setUpClass" finished-at="2024-02-28T11:17:21 CST" duration-ms="9683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@166c2c17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nopcommerce_V1.TestRunner.TestRunner@78e4deb0]" started-at="2024-02-28T11:17:21 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-28T11:17:26 CST" duration-ms="4310" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to admin page with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy41.sendKeys(Unknown Source)
+at com.nopcommerce_V1.PageObjects.LoginPage.doLogin(LoginPage.java:44)
+at nopcommerce_V1.StepDefinitions.LoginPageSD.user_enters_valid_email_and_password(LoginPageSD.java:33)
+at ✽.User enters valid email "admin@yourstore.com" and password "admin"(file:///C:/Users/msmee/eclipse-workspace/nopcommerce_V1/src/test/resources/Features/LoginPage.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.nopcommerce_V1.TestRunner.TestRunner@78e4deb0]" started-at="2024-02-28T11:17:26 CST" name="tearDownClass" finished-at="2024-02-28T11:17:27 CST" duration-ms="829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.nopcommerce_V1.TestRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

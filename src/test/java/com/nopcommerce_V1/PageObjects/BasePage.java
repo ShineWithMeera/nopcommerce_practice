@@ -9,8 +9,6 @@ import com.nopcommerce_V1.Utilities.ConfigReader;
 public class BasePage {
 	WebDriver driver = DriverFactory.driver;
 	String loginpage = ConfigReader.getLoginPage();
-	public BasePage() {
-		PageFactory.initElements(driver, this);
-	}
+	
 
 }

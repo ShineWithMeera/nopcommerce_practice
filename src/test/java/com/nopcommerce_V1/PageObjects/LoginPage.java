@@ -17,7 +17,7 @@ public class LoginPage extends BasePage {
 	
 // initializes all the annotated elements (such as @FindBy) in the current class (this) using the given WebDriver instance (driver).	
 	public LoginPage() {
-		//PageFactory.initElements(driver, this);
+		PageFactory.initElements(driver, this);
 	}
 	
 	@FindBy (xpath="//*[@id='Email']")static WebElement Email;

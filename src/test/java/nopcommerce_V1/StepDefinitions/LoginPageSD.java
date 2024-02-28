@@ -14,7 +14,7 @@ import io.cucumber.java.en.When;
 public class LoginPageSD {
 	
 	LoginPage login = new LoginPage();
-	String excelfilepath = ConfigReader.getExcelFilePath();
+	
 	static String email;
 	static String password;
 	static String expectedMsg;
@@ -51,18 +51,9 @@ public class LoginPageSD {
 	public void user_is_able_to_navigate_to_admin_page() {
 		String Title = login.verifyPageTitle();
 		LoggerLoad.info("Title of current page is" + Title);
-		assertEquals(Title, "NumpyNinja", "Title do not match");
+		assertEquals(Title, "dashboard", "Title do not match");
 	}
 
-	@When("User enters  email {string} and password {string}")
-	public void user_enters_email_and_password(String string, String string2) {
-	 
-	}
-
-	@Then("User verify error {string} and should not allow user to navigate to admin page")
-	public void user_verify_error_and_should_not_allow_user_to_navigate_to_admin_page(String string) {
-	    
-
-	}
-
+	
+	
 }
