@@ -1,6 +1,7 @@
 package com.nopcommerce_V1.PageObjects;
 
 //import org.openqa.selenium.WebDriver;
+//import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -16,6 +17,7 @@ public class LoginPage extends BasePage {
 	
 // initializes all the annotated elements (such as @FindBy) in the current class (this) using the given WebDriver instance (driver).	
 	public LoginPage() {
+		//this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 	

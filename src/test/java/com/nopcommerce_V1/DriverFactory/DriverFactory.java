@@ -15,15 +15,15 @@ public class DriverFactory {
 
 	public WebDriver initializeDrivers(String browser) {
 
-		if (browser.equalsIgnoreCase("firefox")) {
-			LoggerLoad.info("Testing on firefox");
-			
-			driver = new FirefoxDriver();
-
-		} else if (browser.equalsIgnoreCase("chrome")) {
+		if (browser.equalsIgnoreCase("chrome")) {
 			LoggerLoad.info("Testing on chrome");
 			
 			driver = new ChromeDriver();
+
+		} else if (browser.equalsIgnoreCase("firefox")) {
+			LoggerLoad.info("Testing on firefox");
+			
+			driver = new FirefoxDriver();
 
 		} else if (browser.equalsIgnoreCase("safari")) {
 			LoggerLoad.info("Testing on safari");

@@ -11,7 +11,8 @@ import io.cucumber.java.en.When;
 
 public class LoginPage_SD{
 
-	   LoginPage login = new LoginPage();
+	   //LoginPage login = new LoginPage(null);
+	LoginPage login = new LoginPage();
 	
 	@Given("User launch the Login page")
 	public void user_launch_the_login_page() {

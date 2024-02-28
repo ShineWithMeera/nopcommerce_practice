@@ -9,8 +9,12 @@ import io.cucumber.testng.CucumberOptions;
 @Test
 @CucumberOptions(
 		
+		monochrome = false, // console output
+
+		tags = "", // tags from feature file
+		
 		features= "/src/test/resources/Features",
-		glue = "StepDefinitions"
+		glue = { "nopcommerce_V1.StepDefinitions","com.nopcommerce_V1.Hooks" }
 		
 		
 		)
